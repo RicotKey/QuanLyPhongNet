@@ -197,7 +197,7 @@ namespace QuanLyPhongNet
                 TaiKhoan MK = db.TaiKhoans.Where(p => p.TenTK == txtTenTK.Text).FirstOrDefault();
                 if (MK != null)
                 {
-                    txtMK.Text = MK.MatKhau;
+                    txtMK.Text =MK.MatKhau;
                 }
             }
             catch (Exception)
